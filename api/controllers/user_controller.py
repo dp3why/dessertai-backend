@@ -1,5 +1,5 @@
 import os
-from services.connect import *
+from ..services.connect import *
 from flask import Blueprint, jsonify, request
 from flask_cors import cross_origin
 from dotenv import load_dotenv

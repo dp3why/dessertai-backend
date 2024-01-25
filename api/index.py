@@ -1,6 +1,6 @@
 from flask import Flask
 from dotenv import load_dotenv
-from controllers import user_controller, file_controller
+from .controllers import user_controller, file_controller
 import os
 
 load_dotenv()
